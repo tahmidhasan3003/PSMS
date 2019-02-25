@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27130.2027
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PSMS", "PSMS\PSMS.csproj", "{2EB4B6AA-4367-4A82-975A-E9F7E38D27FE}"
+EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "Setup", "Setup\Setup.vdproj", "{FF84BC42-29CC-4C51-B566-A84C53807986}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2EB4B6AA-4367-4A82-975A-E9F7E38D27FE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2EB4B6AA-4367-4A82-975A-E9F7E38D27FE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2EB4B6AA-4367-4A82-975A-E9F7E38D27FE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2EB4B6AA-4367-4A82-975A-E9F7E38D27FE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FF84BC42-29CC-4C51-B566-A84C53807986}.Debug|Any CPU.ActiveCfg = Debug
+		{FF84BC42-29CC-4C51-B566-A84C53807986}.Debug|Any CPU.Build.0 = Debug
+		{FF84BC42-29CC-4C51-B566-A84C53807986}.Release|Any CPU.ActiveCfg = Release
+		{FF84BC42-29CC-4C51-B566-A84C53807986}.Release|Any CPU.Build.0 = Release
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {363E7FBE-221A-4C5D-91AC-936D2A0A4752}
+	EndGlobalSection
+EndGlobal

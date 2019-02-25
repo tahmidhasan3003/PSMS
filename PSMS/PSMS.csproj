@@ -1,0 +1,270 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{2EB4B6AA-4367-4A82-975A-E9F7E38D27FE}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>PSMS</RootNamespace>
+    <AssemblyName>PSMS</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <PublishUrl>C:\Users\Tahmid Hasan\Desktop\PSMS\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <SupportUrl>https://www.facebook.com/tahmidhasan3003</SupportUrl>
+    <ErrorReportUrl>https://www.facebook.com/tahmidhasan3003</ErrorReportUrl>
+    <ProductName>Primary School Management System</ProductName>
+    <PublisherName>Md. Tahmid Hasan Sarkar ShiShir</PublisherName>
+    <AutorunEnabled>true</AutorunEnabled>
+    <ApplicationRevision>1</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>true</UseApplicationTrust>
+    <CreateDesktopShortcut>true</CreateDesktopShortcut>
+    <PublishWizardCompleted>true</PublishWizardCompleted>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>Icon.ico</ApplicationIcon>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignManifests>false</SignManifests>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestCertificateThumbprint>60B361DCBC881F2092EA451E28042560136B3BC4</ManifestCertificateThumbprint>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestKeyFile>PSMS_TemporaryKey.pfx</ManifestKeyFile>
+  </PropertyGroup>
+  <PropertyGroup>
+    <GenerateManifests>true</GenerateManifests>
+  </PropertyGroup>
+  <PropertyGroup>
+    <TargetZone>LocalIntranet</TargetZone>
+  </PropertyGroup>
+  <PropertyGroup />
+  <PropertyGroup />
+  <PropertyGroup>
+    <ApplicationManifest>Properties\app.manifest</ApplicationManifest>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="MySql.Data, Version=6.9.9.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d, processorArchitecture=MSIL" />
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Admission.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Admission.Designer.cs">
+      <DependentUpon>Admission.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Committee.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Committee.Designer.cs">
+      <DependentUpon>Committee.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Database.cs" />
+    <Compile Include="Developer.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Developer.Designer.cs">
+      <DependentUpon>Developer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Home.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Home.Designer.cs">
+      <DependentUpon>Home.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Registration.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Registration.Designer.cs">
+      <DependentUpon>Registration.cs</DependentUpon>
+    </Compile>
+    <Compile Include="About.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="About.Designer.cs">
+      <DependentUpon>About.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Result Sheet.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Result Sheet.Designer.cs">
+      <DependentUpon>Result Sheet.cs</DependentUpon>
+    </Compile>
+    <Compile Include="StudentProfile.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="StudentProfile.Designer.cs">
+      <DependentUpon>StudentProfile.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Students.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Students.Designer.cs">
+      <DependentUpon>Students.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Teachers.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Teachers.Designer.cs">
+      <DependentUpon>Teachers.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View Result.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View Result.Designer.cs">
+      <DependentUpon>View Result.cs</DependentUpon>
+    </Compile>
+    <Compile Include="WaitForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="WaitForm.Designer.cs">
+      <DependentUpon>WaitForm.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Admission.resx">
+      <DependentUpon>Admission.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Committee.resx">
+      <DependentUpon>Committee.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Developer.resx">
+      <DependentUpon>Developer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Home.resx">
+      <DependentUpon>Home.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Registration.resx">
+      <DependentUpon>Registration.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="About.resx">
+      <DependentUpon>About.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <SubType>Designer</SubType>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Result Sheet.resx">
+      <DependentUpon>Result Sheet.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="StudentProfile.resx">
+      <DependentUpon>StudentProfile.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Students.resx">
+      <DependentUpon>Students.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Teachers.resx">
+      <DependentUpon>Teachers.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View Result.resx">
+      <DependentUpon>View Result.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WaitForm.resx">
+      <DependentUpon>WaitForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Properties\app.manifest" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="PSMS_TemporaryKey.pfx" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\About.png" />
+    <None Include="Resources\Committee.png" />
+    <None Include="Resources\Registration.png" />
+    <None Include="Resources\Students.png" />
+    <None Include="Resources\Teachers.png" />
+    <None Include="Resources\TahmidHasan.png" />
+    <None Include="Resources\AkkasAli.png" />
+    <None Include="Resources\Email.png" />
+    <None Include="Resources\Facebook.png" />
+    <None Include="Resources\GooglePlus.png" />
+    <None Include="Resources\Twitter.png" />
+    <None Include="Resources\YouTube.png" />
+    <None Include="Resources\LinkedIn.png" />
+    <None Include="Resources\Skype.png" />
+    <Content Include="Icon.ico" />
+    <None Include="Resources\Search.png" />
+    <Content Include="ts_2_MSD_10.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <PublishFile Include="ts_2_MSD_10.ico">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Exclude</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>File</FileType>
+    </PublishFile>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

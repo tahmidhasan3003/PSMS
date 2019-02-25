@@ -1,0 +1,17 @@
+E:\Code Backup\Visual Studio\PSMS\PSMS\obj\Release\PSMS.csprojResolveAssemblyReference.cache
+E:\Code Backup\Visual Studio\PSMS\PSMS\obj\Release\PSMS.Admission.resources
+E:\Code Backup\Visual Studio\PSMS\PSMS\obj\Release\PSMS.Committee.resources
+E:\Code Backup\Visual Studio\PSMS\PSMS\obj\Release\PSMS.Developer.resources
+E:\Code Backup\Visual Studio\PSMS\PSMS\obj\Release\PSMS.Home.resources
+E:\Code Backup\Visual Studio\PSMS\PSMS\obj\Release\PSMS.Registration.resources
+E:\Code Backup\Visual Studio\PSMS\PSMS\obj\Release\PSMS.About.resources
+E:\Code Backup\Visual Studio\PSMS\PSMS\obj\Release\PSMS.Properties.Resources.resources
+E:\Code Backup\Visual Studio\PSMS\PSMS\obj\Release\PSMS.Result_Sheet.resources
+E:\Code Backup\Visual Studio\PSMS\PSMS\obj\Release\PSMS.StudentProfile.resources
+E:\Code Backup\Visual Studio\PSMS\PSMS\obj\Release\PSMS.Students.resources
+E:\Code Backup\Visual Studio\PSMS\PSMS\obj\Release\PSMS.Teachers.resources
+E:\Code Backup\Visual Studio\PSMS\PSMS\obj\Release\PSMS.View_Result.resources
+E:\Code Backup\Visual Studio\PSMS\PSMS\obj\Release\PSMS.csproj.GenerateResource.Cache
+E:\Code Backup\Visual Studio\PSMS\PSMS\obj\Release\PSMS.csproj.CoreCompileInputs.cache
+E:\Code Backup\Visual Studio\PSMS\PSMS\obj\Release\PSMS.exe
+E:\Code Backup\Visual Studio\PSMS\PSMS\obj\Release\PSMS.WaitForm.resources
